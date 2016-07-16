@@ -1,0 +1,46 @@
+.top-nav {
+	font-size: 12px;
+	font-weight: bold;
+	overflow: auto;
+}
+
+.top-nav li {
+	float: left;
+	margin-right: 1px;
+}
+
+.top-nav li a {
+	line-height: 20px;
+	background: #ddd;
+	color: #666;
+	display: block;
+	width: 80px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.top-nav li a:hover {
+	background: #900;
+	color: #fff;
+}
+
+.top-nav li ul {
+	display: none;
+	position: relative;
+}
+
+.top-nav li:hover ul {
+	display: block;
+	width: 80px;
+}
+
+.top-nav li:hover ul li ul{
+	display: none;
+}
+
+.top-nav li ul li:hover ul{
+	display: block;
+	top: 0;
+	left: 80px;
+	position: absolute;
+}
